@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Quem é Francheska</title>
 </head>
 
@@ -26,13 +26,31 @@
             </nav>
         </header>
     </section>
-    <section class="index">
-        <div class="foto1">
-            <img src="C:/Users/EB010112/Desktop/CDA/M1/projetoIndividual/imagens/foto1.jpeg">
-        </div>
-        <div class="ola">
-            <h2>Olá...</h2>
-        </div>
+    <section class="contato">
+        <form action="dados" method="post">
+            <fieldset>
+                <legend><strong>Contato: </strong></legend>
+                <div>
+                    <label>Nome Completo: 
+                        <input type="text" name="nome">
+                    </label>
+                </div>
+                <div>
+                    <label>E-mail: 
+                        <input type="email" name="email">
+                    </label>
+                </div>
+                <div>
+                    <label>Mensagem: 
+                        <textarea></textarea>
+                    </label>
+                </div>
+                <div>
+                    <button>Enviar</button>
+                </div>
+                <br>
+            </fieldset>
+        </form>
     </section>
 
 </body>
